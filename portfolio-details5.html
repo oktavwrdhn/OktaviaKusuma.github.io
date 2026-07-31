@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Oktavia Kusuma</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/profile/profile foto.png" rel="icon">
+  <link href="assets/img/profile/profile foto.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+      </a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <!-- Portfolio Images & Badges Column -->
+          <div class="col-lg-6" data-aos="fade-right">
+
+            <div class="portfolio-details-media">
+
+              <div class="main-image">
+                <div class="portfolio-details-slider swiper init-swiper" data-aos="zoom-in">
+
+                  <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 1000,
+                      "autoplay": {
+                        "delay": 6000
+                      },
+                      "effect": "creative",
+                      "creativeEffect": {
+                        "prev": {
+                          "shadow": true,
+                          "translate": [0, 0, -400]
+                        },
+                        "next": {
+                          "translate": ["100%", 0, 0]
+                        }
+                      },
+                      "slidesPerView": 1,
+                      "navigation": {
+                        "nextEl": ".swiper-button-next",
+                        "prevEl": ".swiper-button-prev"
+                      }
+                    }
+                  </script>
+
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/Portofolio6.png" alt="Credit Card Fraud Detection Dashboard" class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+
+                </div>
+              </div>
+
+              <!-- Thumbnail Gallery -->
+              <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="row g-2 mt-3">
+                  <div class="col-3">
+                    <img src="assets/img/portfolio/Portofolio6.png" alt="Dashboard Overview" class="img-fluid glightbox">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Technology Badges -->
+              <div class="tech-stack-badges" data-aos="fade-up" data-aos-delay="300">
+                <span>Python</span>
+                <span>PostgreSQL</span>
+                <span>Power BI</span>
+                <span>Logistic Regression</span>
+                <span>Fraud Analytics</span>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- End Portfolio Images -->
+
+          <!-- Project Content Column -->
+          <div class="col-lg-6" data-aos="fade-left">
+
+            <div class="portfolio-details-content">
+
+              <!-- Project Meta -->
+              <div class="project-meta">
+                <div class="badge-wrapper">
+                  <span class="project-badge">Data Analytics & Machine Learning</span>
+                </div>
+
+                <div class="date-client">
+                  <div class="meta-item">
+                    <i class="bi bi-shield-lock"></i>
+                    <span>Fraud Intelligence Pipeline</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Title -->
+              <h2 class="project-title">
+                Credit Card Fraud Detection Technical Analysis Report
+              </h2>
+
+              <!-- Project Overview -->
+              <div class="project-overview">
+
+                <!-- Accordion -->
+                <div class="accordion project-accordion" id="portfolio-details-projectAccordion">
+
+                  <!-- 1. Project Overview -->
+                  <div class="accordion-item" data-aos="fade-up">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-1" aria-expanded="true" aria-controls="portfolio-details-collapse-1">
+                        <i class="bi bi-clipboard-data me-2"></i>
+                        Project Overview
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-1" class="accordion-collapse collapse show" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <p>
+                          This report documents a complete end-to-end fraud intelligence pipeline built on 10,000 simulated credit card transactions. The objective was to identify high-risk behavioral segments, quantify fraud patterns, and deliver actionable business recommendations — using Python for preprocessing and EDA, PostgreSQL for structured analysis, and Power BI for interactive visualization.
+                        </p>
+                        <p>
+                          The dataset is highly imbalanced — approximately 1.51% fraud — which reflects real-world credit card transaction distributions. Evaluation therefore prioritizes Recall, Precision, and ROC-AUC over raw accuracy.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 2. Data Preprocessing & Feature Engineering -->
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-2" aria-expanded="false" aria-controls="portfolio-details-collapse-2">
+                        <i class="bi bi-gear-wide-connected me-2"></i>
+                        Preprocessing & Feature Engineering
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-2" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <p>
+                          The raw dataset was processed using Pandas prior to model training. Steps included checking for missing values/duplicates, statistical summaries, standardizing features using StandardScaler, and applying a Stratified 80/20 train-test split.
+                        </p>
+                        <h6>Engineered Risk Flags:</h6>
+                        <div class="table-responsive">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th>Feature Flag</th>
+                                <th>Definition</th>
+                                <th>Business Rationale</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><code>high_amount_flag</code></td>
+                                <td>Top 5% of transaction amounts</td>
+                                <td>High-value transactions show elevated fraud risk.</td>
+                              </tr>
+                              <tr>
+                                <td><code>night_transaction_flag</code></td>
+                                <td>Transactions between 0–5 AM</td>
+                                <td>Fraudsters exploit low-monitoring night hours.</td>
+                              </tr>
+                              <tr>
+                                <td><code>low_trust_flag</code></td>
+                                <td>Device trust score &lt; 30</td>
+                                <td>Unrecognized devices correlate with fraud.</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 3. Key Performance Indicators -->
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-3" aria-expanded="false" aria-controls="portfolio-details-collapse-3">
+                        <i class="bi bi-speedometer2 me-2"></i>
+                        Key Performance Indicators
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-3" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <div class="table-responsive">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th>KPI / Metric</th>
+                                <th>Result / Value</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Total Transactions</td>
+                                <td>10,000</td>
+                              </tr>
+                              <tr>
+                                <td>Total Fraud Cases</td>
+                                <td>151 (1.51%)</td>
+                              </tr>
+                              <tr>
+                                <td>Total Fraud Amount</td>
+                                <td>₹32,640 (₹32.6K)</td>
+                              </tr>
+                              <tr>
+                                <td>Logistic Regression Precision</td>
+                                <td>~0.74 (74%)</td>
+                              </tr>
+                              <tr>
+                                <td>Logistic Regression Recall</td>
+                                <td>~0.68 (68%)</td>
+                              </tr>
+                              <tr>
+                                <td>F1 Score / ROC-AUC</td>
+                                <td>0.71 / 0.89</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 4. Key Insights -->
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-4" aria-expanded="false" aria-controls="portfolio-details-collapse-4">
+                        <i class="bi bi-lightbulb me-2"></i>
+                        Key Insights & SQL Analytics
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-4" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <h5>1. Foreign vs Domestic Risk</h5>
+                        <p>Foreign transactions exhibit a 4.08% fraud rate compared to 0.70% for domestic — representing a 3.2× higher risk, making it the single strongest individual risk signal.</p>
+
+                        <h5>2. High Velocity Impact</h5>
+                        <p>Customers with high transaction velocity (5+ transactions in 24 hours) represent only ~12% of total volume, yet account for ~38% of all fraud cases (4.75% fraud rate).</p>
+
+                        <h5>3. Device Trust Score</h5>
+                        <p>Low Trust devices (score 25–50) carry a 4.24% fraud rate (~4× baseline) and account for ~58.9% of all fraudulent cases.</p>
+
+                        <h5>4. Multi-Signal Combined Risk</h5>
+                        <p>When foreign origin and location mismatch occur together, the fraud rate spikes to 6.2%. Furthermore, combining low device trust, high velocity, and foreign origin creates a High Risk segment with an 8.75% fraud rate (13× baseline).</p>
+
+                        <h5>5. Merchant Categories & Time Windows</h5>
+                        <p>Travel (2.21%) and Grocery (2.06%) carry the highest fraud rates and total fraud amounts. Late-night transactions (0–5 AM) show a 2.81% fraud rate, which is 2.4× higher than daytime transactions.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 5. Recommendations -->
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-5" aria-expanded="false" aria-controls="portfolio-details-collapse-5">
+                        <i class="bi bi-graph-up-arrow me-2"></i>
+                        Recommendations
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-5" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <ul class="recommendation-list">
+                          <li>Strengthen monitoring and cross-border verification for foreign transactions.</li>
+                          <li>Implement dynamic rate-limiting for accounts exceeding 5+ transactions in 24 hours.</li>
+                          <li>Trigger automated OTP/biometric re-verification for transactions with low device trust scores (&lt;50).</li>
+                          <li>Flag foreign + location mismatch combinations for immediate verification (6.2% risk).</li>
+                          <li>Apply per-category fraud score thresholds targeting Travel and Grocery categories.</li>
+                          <li>Deploy real-time Machine Learning risk scoring models into production pipelines.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 6. Conclusion -->
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-6" aria-expanded="false" aria-controls="portfolio-details-collapse-6">
+                        <i class="bi bi-check-circle me-2"></i>
+                        Conclusion
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-6" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <ul class="conclusion-list">
+                          <li>Foreign origin, high velocity, and low device trust are the primary drivers of transaction fraud.</li>
+                          <li>A multi-signal approach effectively isolates high-risk transactions with up to an 8.75% fraud rate.</li>
+                          <li>Deploying all recommended controls offers a theoretical prevention potential of ~60% of detected fraud.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!-- Key Features -->
+              <div class="project-features" data-aos="fade-up" data-aos-delay="300">
+                <h3>
+                  <i class="bi bi-stars"></i>
+                  Key Pipeline Features
+                </h3>
+
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <ul class="feature-list">
+                      <li><i class="bi bi-check2-circle"></i> Automated Data Preprocessing</li>
+                      <li><i class="bi bi-check2-circle"></i> Behavior Risk Feature Engineering</li>
+                      <li><i class="bi bi-check2-circle"></i> Advanced PostgreSQL Analytical Queries</li>
+                    </ul>
+                  </div>
+
+                  <div class="col-md-6">
+                    <ul class="feature-list">
+                      <li><i class="bi bi-check2-circle"></i> Balanced ML Classification</li>
+                      <li><i class="bi bi-check2-circle"></i> Interactive 5-View Power BI Dashboard</li>
+                      <li><i class="bi bi-check2-circle"></i> End-to-End Fraud Analytics</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CTA Buttons -->
+              <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://github.com/oktavwrdhn/fraudDetection.github.io" class="btn-view-project" target="_blank" rel="noopener noreferrer">
+                  View Live Project
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+
+                <a href="index.html" class="btn-next-project">
+                  Next Project
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+
+            </div>
+
+          </div><!-- End Project Content -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>2026</span> <strong class="px-1 sitename">Alviya Rizwan.</strong> <span>All Rights Reserved.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
